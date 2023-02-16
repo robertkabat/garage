@@ -40,7 +40,7 @@ Project assumes the following:
 1. Clone the project from github.
 2. Get sail up and running - `./vendor/bin/sail up -d` in the root directory
 3. `composer install` and `npm install` in the root directory
-4. Use provided `.env` file
+4. Use provided `.env.example` file to create `.env` file
 5. Update `.env` with your own mailtrap credentials
 6. Run database migrations `/vendor/bin/sail artisan migrate:fresh --seed`
 
